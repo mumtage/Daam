@@ -9,13 +9,13 @@ for (i in 1:12)
 
 print (x)
 
-#2##################
+#2
 balance <- 1500
 for (i in 1:6)
 {
   balance <- balance * (1 + .0324/12)**(12)
 }
-print(sprintf("%.2f", balance))
+print(sprintf("$%.2f", balance))
 
 #3
 twenty <- c(1:20)
